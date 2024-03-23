@@ -181,11 +181,15 @@ a{
   }
   }
   @media (max-width:767px){
+    .parent-02 .container .content{
+      gap: 10px;
+    }
     .parent-02 .premium-package{
       padding: 20px;
     }
     .parent-02 .essentials-package{
       padding: 20px;
+      border-radius: 10px;
     }
   }
 /* end problem 02 */
