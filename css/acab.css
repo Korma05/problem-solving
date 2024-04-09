@@ -193,3 +193,152 @@ a{
     }
   }
 /* end problem 02 */
+/* start problem 03 */
+:root{
+  --parpel-color:#f53f4c;
+  --second-color:#f88992;
+}
+.parent03{  
+
+}
+.parent03 .boxes{  
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent03 .boxes .box h1{  
+  line-height: 1.4;
+  font-size: 35px;
+  max-width: 400px;
+}
+.parent03 .boxes .box p{
+  max-width: 500px;
+  line-height: 1.8;
+}
+.parent03 .boxes .box .image{
+  position: relative;
+
+}
+.parent03 .boxes .box .image::before{
+  content: "";
+  position: absolute;
+  width: 79%;
+  height: 110%;
+  border: solid var(--second-color) 10px;
+  padding: 25px;
+  left: 0;
+  top: -22%;
+}
+.parent03 .boxes .box img{  
+  position: relative;
+  left: -66px;
+  max-width: 400px;
+}
+.parent03 .boxes .box .span-01{
+  color: var(--parpel-color);
+}
+.parent03 .boxes .box .span-01::before{
+  content: "";
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  left: -49px;
+  bottom: 3px;
+  border: solid var(--parpel-color) 2px;
+}
+.parent03 .boxes .box .span-01::after{
+  content: "";
+  position: absolute;
+  left: -44px;
+  bottom: 8px;
+  width: 32px;
+  height: 2px;
+  background-color: var(--parpel-color);
+}
+.parent03 .boxes .box-02{
+  
+}
+.parent03 .boxes .box-02 .quib-shape .box{
+  border: solid 3px #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 180px;
+  max-height: 100%;
+  margin-top: 20px;
+}
+.parent03 .boxes .box-02 .quib-shape .box::before{
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  width: 0px;
+  height: 0;
+  border-style: solid;
+  border-color: var(--parpel-color) var(--parpel-color) transparent transparent;
+  border-width: 15px;
+}
+.parent03 .boxes .box-02 .quib-shape{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.parent03 .boxes .box-02 .quib-shape .box .image-and-text img{
+  max-width: 80px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  top: 10px;
+}
+.parent03 .boxes .box-02 .quib-shape .box .image-and-text p{
+  color: #333333;
+  text-align: center;
+  top: -15px;
+  position: relative;
+}
+.parent03 .boxes .box-02 .quib-shape .box .image-and-text span{
+  font-size: 60px;
+  font-weight: bold;
+  color: #eee;
+  z-index: -1;
+  top: 8px;
+  position: relative;
+}
+/* end problem 03 */
+/* start problem 04 */
+:root{
+  --bg-04:#eeeeee;
+  --main-04:#3b74ba;
+}
+.parent-04{
+  background-color: var(--bg-04);
+}
+.parent-04 .container {
+  flex-direction: column;
+}
+.parent-04 img{
+  z-index: 1;
+}
+.parent-04 .box{
+  top: -25px;
+}
+.parent-04 .box .text{
+  border-bottom: solid 2px #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.parent-04 .box .text h1{
+  color: var(--main-04);
+
+}
+.parent-04 .box .sotioal ul{
+  min-width: 350px;
+}
+/* end problem 04 */
